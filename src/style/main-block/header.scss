@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    
+    div{
+        display: flex;
+        justify-content: space-between;
+        margin: 32px auto;
+        max-width: 1426px;
+        width: 100%;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 485px;
+        width: 100%;
+        list-style: none;
+        color: #17407D;
+        font-family: Inter sans-serif;
+        font-size: 20px;
+    }
+
+    p{
+        color: #8E6B0F;
+        font-family: Italiana sans-serif;
+        font-size: 36px;
+    }
+
+    img{
+        max-width: 40px;
+    }
+}
