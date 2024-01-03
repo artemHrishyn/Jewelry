@@ -13,8 +13,178 @@ body{
     display: flex;
     flex-direction: column;
     font-weight: 400;
+    background-color: #EEF2F9;
 }
 
 img{
     width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    .exclusive{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Jacques Francois sans-serif;
+        margin-right: 250px;
+
+        img{
+            max-width: 600px;
+        }
+
+        &__info{            
+            max-width: 590px;
+            width: 100%;
+            
+            h1{
+                margin-bottom: 15px;
+                color: #8E6B0F;
+                font-size: 48px;
+                text-transform: uppercase;
+            }
+
+            p{
+                margin-bottom: 47px;
+                color: #17407D;
+                font-size: 24px;
+            }
+
+            button{
+                color: #FFF;
+                padding: 20px 40px;
+                border: none;
+                border-radius: 48px;
+                box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.36);
+                background: #17407D;
+                font-size: 32px;
+            }
+        }
+    }
+
+    .category{
+        display: flex;
+        font-family: Jacques Francois sans-serif;
+        background-color: #FFF;
+        
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1430px;
+            width: 100%;
+            margin: 88px auto 0;
+        }
+
+        h3{
+            color: #8E6B0F;
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+        }
+        
+        p{
+            margin-bottom: 25px;
+            max-width: 838px;
+            width: 100%;
+            color: #17407D;
+            font-size: 24px;
+        }
+
+        #gallery{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 20px;
+        }
+    }
+
+    .make{
+        margin: 73px 0 0;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 640px;
+            width: 100%;
+            font-family: Jacques Francois sans-serif;
+            margin-right: 15px;
+
+            h3{
+                margin-bottom: 104px;
+                display: flex;
+                justify-content: space-between;
+                text-transform: uppercase;
+                align-self: end;
+                position: relative;
+                text-shadow: 104px 4px 23px rgba(0, 0, 0, 0.25);
+                text-transform: uppercase;
+                
+                p{
+                    color: #8E6B0F;
+                    font-size: 40px;
+                    margin: 0;
+                }
+                
+                span{
+                    position: absolute;
+                    color: #FFF;
+                    font-size: 40px;
+                    right: -280px;
+                }
+            }
+            p{
+                color: #17407D;
+                font-size: 24px;
+                margin-bottom: 67px;
+            }
+
+            button{
+                align-self: baseline;
+                border-radius: 48px;
+                background-color: #17407D;
+                box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.36);
+                color: #FFF;
+                font-size: 32px;
+                padding: 21px 99px;
+            }
+        }
+
+        img{
+            max-width: 815px;
+        }
+    }
+
+    .review{
+        margin: 147px auto 159px;
+        background-image: url('../images/necklace_3.jpg');
+        background-size: cover;
+        display: flex;
+        height: 566px;
+        max-width: 1470px;
+        width: 100%;
+        color: #FFF;
+        font-family: Jacques Francois sans-serif;
+        
+        div{
+            margin: auto;
+            max-width: 855px;
+            width: 100%;
+
+            h3{
+                margin-bottom: 45px;
+                font-size: 32px;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+    }
 }
